@@ -1,10 +1,19 @@
 body {
     background: #ccc;
     font-family: Verdana;
+    max-width: 900px;
+    margin: auto;
 }
 
 .photo {
     width: 50px;
+    height: 50px;
+    padding-top: 25px;
+    padding-right: 15px;
+}
+
+.header{
+    display: flex;
 }
 
 #title,
@@ -19,7 +28,7 @@ body {
 }
 
 a {
-    text-decoration: line-through;
+    text-decoration: underline;
     color: #505050;
 }
 
@@ -41,9 +50,23 @@ a {
 .post-content {
     margin: 0px;
     margin-bottom: 15px;
+    text-align: justify;
 }
 
 .post-image {
     margin: 0px;
     margin-bottom: 15px;
+    width: 100%;
+    opacity: 90%;
+}
+
+.contact-list{
+    list-style-type: none;
+    padding: 0px;
+    padding-left: 15px;
+}
+
+.contact-list li a{
+    text-decoration: none;
+    color: blue;
 }
